@@ -5,22 +5,36 @@
 
 import numpy as np
 
-
 def sum_all(a):
-    """Возвращает сумму всех элементов"""
+    a = np.array([[1, 2, 3,],
+                  [4, 5, 6,],
+                  [7, 8, 9,]])
+   print(np.sum(a))
+    
     pass
 
 def sum_columns(a):
-    """Постолбцовая сумма"""
+    a = np.array([[1, 2, 3,],
+                  [4, 5, 6,],
+                  [7, 8, 9,]])
+    print(np.sum(a, axis = 0))
     pass
 
 def sum_rows(a):
-    """Построчная сумма"""
+    a = np.array([[1, 2, 3,],
+                  [4, 5, 6,],
+                  [7, 8, 9,]])
+print(np.sum(a, axis = 1))
     pass
 
 def reorder1(m):
     """На вход подается матрица 2n x 2n, составляет матрицу n x 2n
     из диагональных блоков размером n x n"""
+    m = np.array([[1, 2, 3, 4,],
+                  [5, 6, 7, 8,],
+                  [9, 10, 11, 12,],
+                  [13, 14, 15, 16,]])
+    
     pass
 
 def reorder2(m):
