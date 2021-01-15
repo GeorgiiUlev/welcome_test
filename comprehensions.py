@@ -9,9 +9,8 @@ def square_for(a):
         b.append(x**2)
     return b
 
-
 def square_compr(a):
-    # Напишите свой код здесь
+   [x*x for x in a]
     pass
 
 
@@ -24,7 +23,7 @@ def keep_positive_for(a):
 
 
 def keep_positive_compr(a):
-    # Напишите свой код здесь
+    [x for x in a if x>0]
     pass
 
 
@@ -36,7 +35,7 @@ def make_dict_for(a):
 
 
 def make_dict_compr(a):
-    # Напишите свой код здесь
+    [dict(x) for x in a]
     pass
 
 
